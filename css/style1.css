@@ -89,10 +89,7 @@ nav {
 
 #img-block {
     position: relative;
-    /* height: 800px;
-    background-image: url('../resources/images/hero-section/hero-image.png');
-    background-size: cover;
-    background-repeat: no-repeat; */
+  
 }
 
 #main-img {
@@ -199,7 +196,7 @@ nav {
 .autor-testimonial {
     width: 17%;
     display: flex;
-    /* justify-content: space-around; */
+
 }
 
 .autor-testimonial img {
