@@ -9,7 +9,7 @@ const sendForm = (preventForm) => {
 
   let message = document.querySelector("#message").value;
 
-  //console.log(`${name} ${email} ${phone} ${message}`);
+
 
   fetch("https://jsonplaceholder.typicode.com/posts", {
     method: "POST",
@@ -28,7 +28,6 @@ const sendForm = (preventForm) => {
   })
     .then((response) => {
       if (response.status === 201) {
-        //alert('Thank you, your message have been send.');
 
         document.querySelector(".alert").style.display = "block";
 

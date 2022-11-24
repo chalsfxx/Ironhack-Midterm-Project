@@ -1,4 +1,4 @@
-//external function to access external API
+
 
 const get3posts = () => {
   fetch("https://jsonplaceholder.typicode.com/posts")

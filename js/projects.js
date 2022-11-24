@@ -1,17 +1,17 @@
-//extraemos el numero del post de la url 
+
 
 let params = new URLSearchParams(location.search);
 
 var postUrl = params.get("p");
 
-//consultamos el post extraeido de la url
+
 
 const getPost = (post) => {
   fetch(`https://jsonplaceholder.typicode.com/posts/${post}`)
     .then((response) => response.json())
 
     .then((res) => {
-      //console.log(res)
+    
 
       document.querySelector(".txt-title").innerHTML += `<h1>${res.title}</h1>
 
@@ -52,7 +52,6 @@ const getPost = (post) => {
 getPost(postUrl);
 
 const get3randomPosts = () => {
-  //creamos arrays con 3 numeros aleatorios cada uno y nos aseguramos de que no se repitan
 
   let randomPosts = [];
 
@@ -80,7 +79,6 @@ const get3randomPosts = () => {
 
   console.log(randomPosts, imageRandomizer);
 
-  //usamos los arrays con los numeros aleatorios para insertar post aleatorios y imagenes
 
   fetch("https://jsonplaceholder.typicode.com/posts")
     .then((response) => response.json())
