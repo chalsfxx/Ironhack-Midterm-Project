@@ -402,7 +402,18 @@ footer {
     margin-bottom: 20px;
 }
 
-@media (max-width:1200px){
+#email-input {
+  border: 0;
+  height: 70px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  width: 100%;
+  background: url('../newsletter/icon/mail.svg')no-repeat;
+  background-position: 3% 50%;
+  background-color: white;
+  padding-left:50px;
+}
+/* @media (max-width:1200px){
   .btn-blue {
     display: none;
   }
@@ -415,20 +426,22 @@ footer {
     height: auto;
     flex-wrap: wrap;
     justify-items: center;
-    
+    display: flex;
     align-items: center;
-    grid-column-gap: 50px;
+    margin: 0 auto;
+    /* grid-column-gap: 50px;
     
     grid-template-columns: 1fr 1fr;
     
     grid-template-rows: auto auto;
-
+ */
 
 
     
-  }
-  #brands>div {
+  /* } */
+  /* #brands>div {
     width: 45vw;
+    
   }
   #brands img {
     min-width: ;
@@ -447,6 +460,186 @@ footer {
   }
   #projects .title {
     
+} */
+
+
+@media (max-width: 990px) {
+  .nav-links {
+  display: non
+}
+nav {
+    margin: 0 0 75px 0;
+    padding: 0 30px 15px 30px;
+  }
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #main div {
+    width: 100%;
+    text-align: center;
+  }
+  #main-img{
+    width: 70%;
+  }
+  #img-block {
+    margin-top: 76px;
+  }
+  #credit-card-img {
+    position: absolute;
+    left: 3%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    max-width: 34%;
+  }
+  #project-accepted-img {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 4%;
+    bottom: -22%;
+    max-width: 34%;
+    z-index: 999;
+  }
+  #brands {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+    margin-top: 150px;
+    margin-bottom: 75px;
+    justify-content: cente
+  }
+  #brands div {
+    text-align: center;
+  }
+  #amazon {
+    display: non
+  }
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 44px;
+    grid-row-gap: 44px;
+    margin: 0 44px 0 44px;
+  }
+  .title {
+    margin-left: 30px;
+  }
+  .memoji-1, .memoji-2, .memoji-3, .memoji-4 {
+    width: 96px;
+    height: 96px;
+  }
+  .autor-testimonial {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  #top-contact-btn {
+    display: none;
+  }
+  nav {
+    height: 80px;
+}
 }
 
+@media (max-width: 766px) {
+
+
+  #credit-card-img, #project-accepted-img {
+    display: none;
+  }
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 44px;
+    grid-row-gap: 44px;
+    margin: 0 44px 0 44px;
+  }
+  .memoji-1, .memoji-2, .memoji-3, .memoji-4 {
+    display: none;
+  }
+  #reviews {
+    justify-content:center;
+    height: 370px;
+  }
+  #reviews p {
+    width: 95%;
+    color: gold;
+    font-size: 1.7rem;
+    margin: 40px 0 40px 0;
+  }
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 44px;
+    grid-row-gap: 44px;
+    margin: 0 44px 0 44px;
+  }
+  .email-subscribe {
+    display: flex;
+    flex-direction: column;
+  }
+  #email-input {
+    border: 0;
+    height: 70px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    width: 100%;
+    background: url('../resources/images/newsletter/icon/mail.svg') no-repeat scroll 7px 7px;
+    background-position: 3% 50%;
+    background-color: white;
+    padding-left:50px;
+  }
+  .email-subscribe {
+    width: 56%;
+    }
+  #email-sub-btn {
+    background-color: #072AC8;
+    color: white;
+    width: 100%;
+    font-weight:500;
+    font-size: 1.05rem;
+    padding: 25px 50px 25px 50px;
+    text-decoration: none;
+    margin: 0;
+  }
+  .title-subscribe h2 {
+    font-size: 1.8rem;
+    }
+  footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 120px;
+      margin-top: 120px;
 }
+  .bottom-logo {
+    text-align: center;
+    margin-bottom: 30px;
+    }
+  .grid-links {
+    width: 60%;
+    text-align: center;
+    }
+  .email-phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .email-phone div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
