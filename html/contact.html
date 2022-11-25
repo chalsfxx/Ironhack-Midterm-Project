@@ -13,9 +13,9 @@
         <nav>
             <div class="logo"><img src="../logos/circle.svg" alt="Circle Agency Logo"></div>
             <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">Services</a>
+                <a href="index.html">Home</a>
+                <a href="#projects.html">Projects</a>
+                <a href="#services.html">Services</a>
             </div>
             <div class="btn-blue"><a class="btn-blue" href="#">Contact Us</a></div>
             <input id="menu-toggle" type="checkbox" />
@@ -25,44 +25,45 @@
         </label>
 
         <ul class="menu">
-          <li><a href="#">Home</a></li>
+          <li><a href="#index.html">Home</a></li>
 
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#projects.html">Projects</a></li>
 
-          <li><a href="#services">Services</a></li>
+          <li><a href="#services.html">Services</a></li>
         </ul>
         </nav>
     </div>
   </header>
 
   <section>
-    <div class="parent">
+    <form id="form" class="parent">
       <div class="div1"> 
         <h1>Contact Us</h1>
       </div>
       
       <div class="div2">
         <label for="lname">Full Name *</label><br>
-          <input type="text" id="lname" name="lname" placeholder="Enter your full name">
+          <input type="text" id="name" placeholder="Enter your full name">
         </div>
       <div class="div3"> 
         <label for="lname">Email</label><br>
-          <input type="text" id="lname" name="lname" placeholder="Enter your email">
+          <input type="text" id="email" placeholder="Enter your email">
       </div>
       <div class="div4">
         <label for="lname">Phone</label><br>
-          <input type="text" id="lname" name="lname" placeholder="Enter your phone">
+          <input type="text" id="phone"  placeholder="Enter your phone">
         </div>
-      <div class="div5">
+      <div  id class="div5">
         <label for="lname">Message *</label><br>
-          <textarea rows="5" id="lname" name="lname" class="message-place" placeholder="Enter your message here..." ></textarea>
+          <textarea rows="5" id="message"  class="message-place" placeholder="Enter your message here..." ></textarea>
         </div>
       <div class="div6"> 
         <a href="#" class="btn-submit">Submit</a>
       </div>
-    </div>
-    
+
     </form>
+    
+  
    
   </section>
 
@@ -83,4 +84,5 @@
         </div>
     </footer>
 </body>
+<script src="../js/index.js"></script>
 </html>
