@@ -22,8 +22,8 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
   })
   .catch((error) => console.log("error"));
    
-
-document.querySelector('#form').onSubmit = (e) => {
+console.log(document.querySelector('#form'));
+document.querySelector('.btn-submit').onclick = (e) => {
   e.preventDefault();
    let name = document.querySelector("#name").value;
 
@@ -35,7 +35,7 @@ document.querySelector('#form').onSubmit = (e) => {
   if (name === "" || message === "") {
     alert("Make sure the form is completed")
     
-  } else (console.log('${name} registrado'));
+  } else (console.log(`${name} registrado`));
 }
 
     
