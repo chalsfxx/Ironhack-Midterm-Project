@@ -1,6 +1,6 @@
 This was my first clone of a website, an assessment of the Ironhack bootcamp.
 
-A responsive clone of the circle website:
+A responsive clone of the circle website, made only with html and css:
 
 
 ![clone1](https://user-images.githubusercontent.com/116571485/212074569-59b2f3cf-fe4a-4c01-91cf-a29a1fd51368.png)
